@@ -1,0 +1,213 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Estilos de encabezado */
+header {
+    background-color: #262626;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+/* Estilos del banner */
+#banner {
+    background-image: url('https://www.indianajones.com/images/bg_adventures.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#banner h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px #000;
+}
+
+#banner p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    margin-bottom: 20px;
+
+}
+
+.boton {
+    background-color: #fff;
+    color: #262626;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #e6e6e6;
+}
+
+/* Estilos de la sección de películas */
+#pelis {
+    margin: 40px auto;
+    max-width: 800px;
+}
+
+#pelis h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#pelis ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#pelis li {
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#pelis li:hover {
+    box-shadow: 2px 2px 5px #aaa;
+}
+
+#pelis h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#pelis p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#pelis a {
+    background-color: #fff;
+    color: #262626;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #262626;
+    color: #fff;
+}
+
+/* Estilos para la sección de actores */
+
+#actores {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+}
+
+#actores h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #262626;
+}
+
+#actores ul {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+}
+
+#actores li {
+    flex-basis: 45%;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#actores li strong {
+    display: block;
+    font-size: 24px;
+    color: #262626;
+}
+
+/* Estilos para la sección "Sobre la franquicia" */
+
+#sobre {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+#sobre h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #262626;
+}
+
+#sobre p {
+    max-width: 800px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #262626;
+    padding: 20px;
+}
+
+/* Estilos para el footer */
+
+footer {
+    background-color: #262626;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 16px;
+}
